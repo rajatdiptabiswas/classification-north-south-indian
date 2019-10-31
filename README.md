@@ -235,6 +235,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## Acknowledgments
 
+* [Are you from North or South India? A hard race classification task reveals systematic representational differences between humans and machines](https://arxiv.org/abs/1703.07595) | Harish Kattia, S.P. Aruna | *Centre for Neuroscience, Indian Institute of Science, Bangalore, India*
 * fast.ai course | [Image Classification](http://course.fast.ai/videos/?lesson=1)
 * Coursera | [Convolutional Neural Networks by Andrew Ng](https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning)
 * Documentations - [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/), [Octave](https://octave.org/doc/interpreter/), [MATLAB](https://www.mathworks.com/help/matlab/), [Matplotlib](https://matplotlib.org/contents.html), [PyTorch](https://pytorch.org/docs/stable/index.html), [Keras](https://keras.io), [NumPy](https://docs.scipy.org/doc/numpy-1.13.0/reference/), [SciPy](https://docs.scipy.org/doc/scipy/reference/), [pandas](https://pandas.pydata.org/pandas-docs/stable/), [seaborn](https://seaborn.pydata.org/api.html)
