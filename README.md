@@ -233,7 +233,7 @@ See also the list of [contributors](https://github.com/rajatdiptabiswas/GeoARgra
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## Acknowledgements
 
 * [Are you from North or South India? A hard race classification task reveals systematic representational differences between humans and machines](https://arxiv.org/abs/1703.07595) | Harish Kattia, S.P. Aruna | *Centre for Neuroscience, Indian Institute of Science, Bangalore, India*
 * fast.ai course | [Image Classification](http://course.fast.ai/videos/?lesson=1)
