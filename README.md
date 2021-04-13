@@ -126,7 +126,7 @@ The images were then separated into training, test and cross validation sets usi
 ## Convolutional Neural Networks used
 
 ### AlexNet
-AlexNet is a convolutional neural network that is  8 layers deep and can classify images into 1000 object categories. It is composed of 5 convolutional layers followed by 3 fully connected layers. AlexNet, proposed by Alex Krizhevsky, uses ReLu, instead of a tanh or sigmoid function which was the earlier standard for traditional neural networks. The advantage of ReLu over the sigmoid function is that it trains much faster than the latter. This is due to the fact that the derivative of sigmoid becomes very small in the saturating region and therefore the updates to the weights almost vanish. Another problem that this architecture solved was that it reduced overfitting by using a Dropout layer after every FC layer.
+AlexNet is a convolutional neural network that is  8 layers deep and can classify images into 1000 object categories. It is composed of 5 convolutional layers followed by 3 fully connected layers. AlexNet, proposed by Alex Krizhevsky, uses ReLU, instead of a tanh or sigmoid function which was the earlier standard for traditional neural networks. The advantage of ReLU over the sigmoid function is that it trains much faster than the latter. This is due to the fact that the derivative of sigmoid becomes very small in the saturating region and therefore the updates to the weights almost vanish. Another problem that this architecture solved was that it reduced overfitting by using a dropout layer after every FC layer.
 <p align="center">
   <img width="100%" src="https://github.com/rajatdiptabiswas/classification-north-south-indian/blob/images/neural-network-architectures/alexnet-arch.png">
 </p> 
@@ -135,7 +135,8 @@ AlexNet is a convolutional neural network that is  8 layers deep and can classif
 </p>
 
 ### VGG
-VGG16 is a convolutional neural network model proposed by K. Simonyan and A.Zisserman from the University of Oxford in the paper "Very Deep Convolutional Networks for Large-Scale Image Recognition". VGG19 has a similar model architecture as VGG16 with three additional convolutional layers, it consists of a total of 16 Convolution layers and 3 dense layers.
+VGG16 is a convolutional neural network model proposed by K. Simonyan and A.Zisserman from the University of Oxford in the paper "Very Deep Convolutional Networks for Large-Scale Image Recognition". 
+VGG19 has a similar model architecture as VGG16. It includes three additional convolutional layers and hence consists a total of 16 convolution layers and 3 dense layers.
 <p align="center">
   <img width="80%" src="https://github.com/rajatdiptabiswas/classification-north-south-indian/blob/images/neural-network-architectures/vgg16.png">
 </p> 
@@ -163,7 +164,7 @@ Deep networks face the following problems
 - vanishing/exploding gradients
 - degradation problem (accuracy first saturates and then degrades)
 
-To address these problem, authors of the ResNet architecture came up with the idea of skip connections with the hypothesis that the deeper layers should be able to learn something as equal as shallower layers. A possible solution was to copy the activations from shallower layers and setting additional layers to identity mapping. These connections were enabled by skip connections.
+To address these problems, authors of the ResNet architecture came up with the idea of skip connections with the hypothesis that the deeper layers should be able to learn something as equal as the shallower layers. A possible solution was to copy the activations from shallower layers and setting additional layers to identity mapping. These connections were enabled by skip connections.
 
 <p align="center">
   <img width="35%" src="https://github.com/rajatdiptabiswas/classification-north-south-indian/blob/images/neural-network-architectures/resnet.png">
